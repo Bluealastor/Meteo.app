@@ -1,0 +1,43 @@
+.cardMeteo{
+    margin:0 auto;
+    margin-top:2vw;
+    padding:0;
+    padding-bottom:2vw;
+    border:0;
+    width:30vw;
+/* border style */
+    border: solid 3px rgba(0, 42, 255, 0.666);
+    border-radius: 40px;
+
+    /* text-align:center; */
+
+
+    /* shadow */
+    -webkit-box-shadow: 10px 5px 4px 3px rgb(162, 255, 0); 
+    box-shadow: 10px 5px 4px 3px rgb(162, 255, 0);
+}
+
+.cityName{
+color:rgb(0, 136, 255);
+    font-size:2vw;
+    text-align: center;
+}
+
+.tempmin{
+    color:brown;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.tempMax{
+    color:chocolate;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+
+.tempCurrent{
+    color:blueviolet;
+    text-align: center;
+    font-size: 1.5vw;
+}
