@@ -1,14 +1,11 @@
-header {
-    height: 2vw;
+div {
+    height: 3vw;
     background-color:rgba(0, 42, 255, 0.666);
-    color:whitesmoke;
+    /* color:whitesmoke; */
 }
 .text-header{
     color:rgb(162, 255, 0);
     font-size:150%;
-    /* display:flex; */
-    margin:0;
-    margin-left:1vw;
-    border:0;
-    padding:0;
+    display:flex;
+    justify-content:center;
 }

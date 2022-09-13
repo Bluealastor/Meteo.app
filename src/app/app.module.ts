@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './component/header/header.component';
 import { NavbarComponent } from './feature/navbar/navbar.component';
 import { MeteoComponent } from './page/meteo/meteo.component';
+import { CityComponent } from './page/city/city.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     NavbarComponent,
-    MeteoComponent
+    MeteoComponent,
+    CityComponent
   ],
   imports: [
     BrowserModule,
