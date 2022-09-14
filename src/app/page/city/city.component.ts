@@ -17,8 +17,8 @@ citye: any
 
   ngOnInit() {
 
-    this.http.get("https://api.musement.com/api/v3/cities").subscribe((res:any) => this.citye = res)
-    console.log(this.citye.result)
+    // this.http.get("https://api.musement.com/api/v3/cities").subscribe((res:any) => this.citye = res)
+    // console.log(this.citye.result)
   }
 
 }
