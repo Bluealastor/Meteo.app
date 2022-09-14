@@ -22,7 +22,7 @@ import { CityComponent } from './page/city/city.component';
     AppRoutingModule,
     HttpClientModule,
   ],
-  providers: [],
+  providers: [MeteoComponent ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
